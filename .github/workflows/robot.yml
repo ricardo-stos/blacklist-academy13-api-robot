@@ -1,4 +1,4 @@
-name: Academy API Robot
+name: Academy13 API Robot
 on: push
 jobs:
   test:
