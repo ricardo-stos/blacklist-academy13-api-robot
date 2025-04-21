@@ -2,7 +2,7 @@ name: Academy13 API Robot
 on: push
 jobs:
   test:
-    name: Testes. de API
+    name: Testes de API
     runs-on: ubuntu-latest
  
     permissions:
@@ -33,7 +33,7 @@ jobs:
       - name: Executando os testes de API do Robot
         # run: echo Executando os testes de API do Robot
         run: |
-          robot --outputdir results/ tests/
+          robot --outputdir results/ Tests/
  
       - name: Salvando o Report dos Testes
         # run: echo Salvando o Report dos Testes
